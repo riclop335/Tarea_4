@@ -1,0 +1,15 @@
+
+body {
+  background-image: url('https://www.questionpro.com/blog/wp-content/uploads/2018/08/Encuestas-estudiantes.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+	
+}
+
+div {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
