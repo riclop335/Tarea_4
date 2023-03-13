@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/x-icon" href="img/logou.ico" />
+        <title> 
+            Menu de prestamos de libros
+        </title>
+    </head>
+
+    <body>
+        <h1> Universidad RePiquiñas </h1>
+        <hr> <br>
+        <h1> Menu de prestamos de libros </h1> <br>
+
+        <p>
+            Favor digite  los campos para la captura del prestamo el libro: <br> <br>
+        </p>
+
+        <form action="#" id="form_prestamos">
+            <label> Código del libro &nbsp &nbsp &nbsp </label> <input type="text" placeholder="Ingrese codigo del libro" name="codlib_prestamo" id="codlib_prestamo"> <br> <br>
+            <label> Identificación del estudiante&nbsp &nbsp &nbsp </label> <input type="text" placeholder="Ingrese id de estudiante" name="idestu_prestamo" id="idestu_prestamo"> <br> <br>
+            <label> Fecha inicial &nbsp &nbsp &nbsp </label> <input type="text" placeholder="Ingrese fecha inicial" name="fecini_prestamo" id="ecini_prestamo"> <br> <br>
+            <label> Fecha final &nbsp &nbsp &nbsp </label> <input type="text" placeholder="Ingrese fecha final" name="fecfin_prestamo" id="fecfin_prestamo"> <br> <br>
+            <label> Fecha de entrega &nbsp &nbsp &nbsp </label> <input type="text" placeholder="Ingrese fecha de entrega" name="fecent_prestamo" id="fecent_prestamo"> <br> <br>
+            <button id="blim_prestamo" onclick="lim_prestamo()"> Limpiar </button>
+            <button id="besc_prestamo" onclick="esc_prestamo()"> Enviar </button>
+            <script src="prestamos.js"></script>
+        </form>
+
+</html>

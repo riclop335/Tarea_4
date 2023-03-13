@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+	 <link rel="stylesheet" href="sedes.css">
+        <link rel="shortcut icon" type="image/x-icon" href="img/logou.ico" />
+        <title> 
+            Menu de sedes
+        </title>
+	
+	
+
+    </head>
+
+    <body>
+        <h1> <div> <p style="color: #8B0000 ;"> Universidad WinRiC </p> </div> </h1>
+        <hr> <br>
+        <h1 > <p class="oblique"> <i lang="it"> Menú de sedes </i> </p> </h1> <br>
+
+        <p>
+            Favor digite  los campos para la captura de la sede: <br> <br>
+        </p>
+
+        <form action="#" id="form_sedes">
+            <label> Ciudad de la sede &nbsp &nbsp &nbsp &nbsp </label>
+                <select name="Ciudad de la sede" class="form-control input-lg" id="ciu_sede">
+                    <option> Bogotá </option>
+                    <option> Medellín </option>
+                    <option> Cali </option>
+                </select>
+                <br> <br>
+            <label> Nombre de la sede &nbsp &nbsp &nbsp </label> <input type="text" placeholder="Ingrese nombre" name="nom_sede" id="nom_sede"> <br> <br>
+            <label> Dirección de la sede &nbsp &nbsp </label> <input type="text" placeholder="Ingrese dirección" name="dir_sede" id="dir_sede"> <br> <br>
+            <label> Teléfono de la sede &nbsp &nbsp &nbsp </label> <input type="text" placeholder="Ingrese teléfono" name="tel_sede" id="tel_sede"> <br> <br>
+            <label> E-mail de la sede &nbsp &nbsp &nbsp &nbsp </label> <input type="email" placeholder="Ingrese e-mail" name="email_sede" id="email_sede"> <br> <br>
+            <button id="blim_sede" onclick="lim_sedes()"> Limpiar </button>
+            <script src="lim_sedes.js"></script>
+            <input type="button" value="Registrar" id="bsede_registrar">
+            <script src="esc_sedes.js"></script>
+            <script src="reg_sedes.js"></script>
+        </form>
+
+</html>

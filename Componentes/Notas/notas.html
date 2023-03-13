@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/x-icon" href="img/logou.ico" />
+        <title> 
+            Menu de notas
+        </title>
+    </head>
+
+    <body>
+        <h1> Universidad RePiquiñas </h1>
+        <hr> <br>
+        <h1> Menú de notas </h1> <br>
+
+        <p>
+            Favor digite  los campos para la captura de las notas: <br> <br>
+        </p>
+
+        <form action="#" id="form_notas">
+            <label> Cógido del programa &nbsp &nbsp &nbsp </label> <input type="text" placeholder="Ingrese código programa" name="codprog_nota" id="codprog_nota"> <br> <br>
+            <label> Identificación del estudiante&nbsp &nbsp &nbsp </label> <input type="text" placeholder="Ingrese id de estudiante" name="idest_nota" id="idest_nota"> <br> <br>
+            <label> Codigo asignatura &nbsp &nbsp &nbsp </label> <input type="text" placeholder="Ingrese código asignatura" name="codasig_nota" id="codasig_nota"> <br> <br>
+            <label> Corte &nbsp &nbsp &nbsp </label> <input type="text" placeholder="Ingrese corte" name="cort_nota" id="cort_nota"> <br> <br>
+            <label> Calificación &nbsp &nbsp &nbsp </label> <input type="text" placeholder="Ingrese calificación" name="cal_nota" id="cal_nota"> <br> <br>
+            <button id="blim_nota" onclick="lim_nota()"> Limpiar </button>
+            <button id="besc_nota" onclick="esc_nota()"> Enviar </button>
+            <script src="notas.js"></script>
+        </form>
+
+</html>
