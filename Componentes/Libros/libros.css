@@ -1,0 +1,15 @@
+
+body {
+  background-image: url('https://1.bp.blogspot.com/_1q7iw9Z7Cfc/TKP_V5aY41I/AAAAAAAAATM/Ysg_wmMzfXU/s1600/Libros+y+m%C3%A1s+libros....jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+	
+}
+
+div {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
