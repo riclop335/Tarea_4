@@ -1,0 +1,15 @@
+
+body {
+  background-image: url('https://www.metalundia.com/wp-content/uploads/2015/03/5-2013-10-20-HiHiUYOMS_k2kCugf7J_WA-15.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+	
+}
+
+div {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
