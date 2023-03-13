@@ -1,0 +1,15 @@
+
+body {
+  background-image: url('https://th.bing.com/th/id/R.73902b45ef2f6570fabbe54015dbc278?rik=uZebuv28twd4Qg&pid=ImgRaw&r=0');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+	
+}
+
+div {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
